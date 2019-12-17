@@ -1,0 +1,15 @@
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 10em;
+}
+.popular{
+    background-color: #D0D0D0;
+    list-style: none;
+}
+.support{
+    background-color: #D0D0D0;
+}
