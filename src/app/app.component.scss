@@ -4,9 +4,10 @@
 #container{
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
 }
 app-topics{
-    flex: 1;
+    flex: 3;
 }
 app-articulos{
     flex: 1;

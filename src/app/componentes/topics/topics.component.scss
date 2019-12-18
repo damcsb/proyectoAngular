@@ -8,8 +8,13 @@
   ul{
     display: flex;
     list-style: none;
+    flex-flow: wrap;
   }
-
-  li p{
-    display: flex;
+  li{
+    width: 18em;
+    border-bottom: gainsboro;
+  }
+  img{
+    width: auto;
+    height: 35px;
   }
