@@ -1,3 +1,13 @@
 * {
     font-family: Arial;
 }
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+app-topics{
+    flex: 1;
+}
+app-articulos{
+    flex: 1;
+}

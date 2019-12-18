@@ -1,15 +1,21 @@
-.articulo{
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-right: 10em;
+:host{
+    display: block;
+    float: right;
 }
 .popular{
     background-color: #D0D0D0;
+}
+.popular h3{
+    padding: 1em 1em 0em 1em;
+}
+ul {
     list-style: none;
+    padding: 0em 1em 1em 1em;
+    margin: 0;
 }
 .support{
     background-color: #D0D0D0;
+}
+.support p{
+    padding: 1em;
 }

@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopicsComponent implements OnInit {
 
+  topics = [
+    {
+      "title": "Ejemplo1",
+      "description": "descripcion ejemplo1",
+      "image": "../../../favicon.ico"
+    }
+  ]
+
   constructor() { }
 
   ngOnInit() {

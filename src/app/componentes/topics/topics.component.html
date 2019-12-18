@@ -1,10 +1,10 @@
 <h2>Help topics</h2>
-
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
+<div class="extopics">
+    <ul>
+        <li *ngFor="let t of topics">
+            <img [src]='t.image'>
+            <p>{{ t.title }}</p>
+            <p>{{ t.description }}</p>
+        </li>
+    </ul>
+</div>
