@@ -9,9 +9,14 @@ export class TopicsComponent implements OnInit {
 
   topics = [
     {
-      "title": "Ejemplo1",
-      "description": "descripcion ejemplo1",
-      "image": "../../../favicon.ico"
+      "title": "My Account",
+      "description": "How to Manage your account and its features",
+      "image": "https://mk0herothemesdek9380.kinstacdn.com/wp-content/uploads/sites/23/2016/03/17-1.png"
+    },
+    {
+      "title": "My Account",
+      "description": "How to Manage your account and its features",
+      "image": "https://mk0herothemesdek9380.kinstacdn.com/wp-content/uploads/sites/23/2016/03/17-1.png"
     }
   ]
 
