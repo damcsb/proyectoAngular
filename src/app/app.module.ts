@@ -7,6 +7,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { TopicsComponent } from './componentes/topics/topics.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ArticulosComponent } from './componentes/articulos/articulos.component';
+import { AppWrapperComponent } from './componentes/wrapper/wrapper.component';
 
 
 
@@ -17,6 +18,7 @@ import { ArticulosComponent } from './componentes/articulos/articulos.component'
     HomeComponent,
     TopicsComponent,
     ArticulosComponent,
+    AppWrapperComponent
   ],
   imports: [
     BrowserModule,

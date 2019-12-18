@@ -1,12 +1,16 @@
-.contenedor{
+:host {
     background-color: #00b4b3;
     color: white;
-}
-
+    display: block;
+  }
 .header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 30px;
+    width: 940px;
 }
 .menu{
     display: flex;
@@ -35,9 +39,13 @@
     border-radius: 5px;
 }
 .busqueda{
-    text-align: center;
-    padding: 3em;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 30px;
     padding-top: 1em;
+    text-align: center;
+    width: 940px;
 }
 .searchbar{
     border: 3px solid #8EFFF5;
