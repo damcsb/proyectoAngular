@@ -1,12 +1,10 @@
 .contenedor{
     background-color: #00b4b3;
     color: white;
-    font-family: Arial;
 }
 
 .header{
     display: flex;
-    padding: 1em;
     justify-content: space-around;
     align-items: center;
 }
@@ -19,11 +17,6 @@
 .menu li a{
     text-decoration: none;
     color: white;
-}
-
-.menu li:hover .submenu{
-	visibility: visible;
-	opacity: 1;
 }
 
 .logo{
@@ -52,4 +45,7 @@
     width: 25em;
     height: 3em;
     font-size: 18px;
+    background-image: url("../../../assets/lupa.png");
+    background-position: 10px, 10px;
+    background-repeat: no-repeat;
 }
