@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 * {
     font-family: Arial;
 }
@@ -7,8 +10,30 @@
     margin-top: 2em;
 }
 app-topics{
-    flex: 3;
-}
-app-articulos{
     flex: 1;
 }
+app-articulos{
+    padding-left: 10px;
+    width: 250px;
+}
+
+@media screen and (max-width:935px){
+    #container{
+        flex-direction: column;
+    }
+    app-topics{
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    app-articulos{
+        display: flex;
+        width: auto;
+    }
+}
+@media screen and (max-width:580px){
+    app-articulos{
+        flex-direction: column;
+    }
+}
+

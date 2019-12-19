@@ -9,14 +9,18 @@
     padding: 1em 1em 1em 0em;
   }
   h2{
+    padding-bottom: 10px;
     border-bottom: 1px solid #dcdcdc;
   }
   ul{
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
   }
   li{
-    width: 18em;
+    width: 19em;
     border-bottom: 1px solid #dcdcdc;
   }
   .content{
@@ -42,3 +46,15 @@
     height: 35px;
     padding: 1em;
   }
+
+  @media screen and (max-width:740px){
+    li{
+      width: 100%;
+    }
+}
+@media screen and (max-width:945px){
+  ul{
+    justify-content: space-around;
+
+  }
+}
