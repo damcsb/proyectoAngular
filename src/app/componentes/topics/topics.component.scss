@@ -2,19 +2,41 @@
     float: left;
     color: rgb(44, 44, 44);
   }
+  *{
+    display: flex;
+  }
+  a{
+    text-decoration: none;
+    padding: 1em 1em 1em 0em;
+  }
   h2{
     border-bottom: 1px solid gainsboro;
   }
   ul{
-    display: flex;
     list-style: none;
-    flex-flow: wrap;
+    flex-wrap: wrap;
   }
   li{
     width: 18em;
-    border-bottom: gainsboro;
+    border-bottom: #dcdcdc;
   }
+  .content{
+    flex-direction: column;
+    margin: 0px !important;
+  }
+  p.title{
+    margin-bottom: 0px;
+    color: #2F2F2F;
+    font-weight: bold;
+  }
+  p.description{
+    color: #b4b4b4;
+    margin-top: 0px;
+  }
+
+  //Aqui tiene que ir FontAwesome
   img{
     width: auto;
     height: 35px;
+    padding: 1em;
   }

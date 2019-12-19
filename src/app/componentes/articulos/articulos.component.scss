@@ -1,6 +1,5 @@
 :host{
     display: block;
-    float: right;
 }
 .popular{
     background-color: rgb(224, 224, 224);
@@ -22,12 +21,16 @@ li a{
     text-decoration: none;
     color: gray;
 }
+li a:hover{
+    color: #00b4b3;
+}
 .support{
     background-color: rgb(224, 224, 224);
 }
 .support p{
     padding: 0em 1em 1em 1em;
     color: gray;
+    font-size: 14px;
 }
 
 //Contact Button style

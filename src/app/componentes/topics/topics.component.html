@@ -2,9 +2,13 @@
 <div class="extopics">
     <ul>
         <li *ngFor="let t of topics">
-            <img [src]='t.image'>
-            <p>{{ t.title }}</p>
-            <p>{{ t.description }}</p>
+            <a href="#">
+                <img [src]='t.image'>
+                <div class="content">
+                    <p class="title">{{ t.title }}<br><br></p>
+                    <p class="description">{{ t.description }}</p>
+                </div>
+            </a>
         </li>
     </ul>
 </div>
