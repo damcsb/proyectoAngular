@@ -2,7 +2,8 @@
     display: block;
 }
 .popular{
-    background-color: rgb(224, 224, 224);
+    padding: 1em;
+    background-color: #bdbdbd3a;
 }
 h3{
     padding: 1em 1em 0em 1em;
@@ -19,17 +20,18 @@ li{
 }
 li a{
     text-decoration: none;
-    color: gray;
+    color: #808080;
 }
 li a:hover{
     color: #00b4b3;
 }
 .support{
-    background-color: rgb(224, 224, 224);
+    
+    background-color: #bdbdbd3a;
 }
 .support p{
-    padding: 0em 1em 1em 1em;
-    color: gray;
+    padding: 0em 1em 0em 1em;
+    color: #808080;
     font-size: 14px;
 }
 

@@ -1,6 +1,5 @@
 :host {
-    float: left;
-    color: rgb(44, 44, 44);
+  display: block;
   }
   *{
     display: flex;
@@ -10,7 +9,7 @@
     padding: 1em 1em 1em 0em;
   }
   h2{
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid #dcdcdc;
   }
   ul{
     list-style: none;
@@ -18,23 +17,25 @@
   }
   li{
     width: 18em;
-    border-bottom: #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
   }
   .content{
     flex-direction: column;
     margin: 0px !important;
+    
   }
   p.title{
     margin-bottom: 0px;
     color: #2F2F2F;
     font-weight: bold;
+    
   }
   p.description{
     color: #b4b4b4;
     margin-top: 0px;
   }
 
-  //Aqui tiene que ir FontAwesome
+  //FontAwesome soon
   img{
     width: auto;
     height: 35px;
